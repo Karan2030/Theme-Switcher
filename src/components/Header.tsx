@@ -1,4 +1,4 @@
-import { useTheme } from "../context/themeContext";
+import { useTheme } from "../context/ThemeContext";
 import { Link } from "react-router-dom";
 
 function Header() {
@@ -8,7 +8,7 @@ function Header() {
   };
   return (
     <>
-      <header className="fixed top-0 left-0 right-0 p-4 flex justify-between items-center bg-gray-100 shadow-md z-50">
+      <header className="fixed top-0 left-0 right-0 p-4 flex justify-between items-center bg-white-100 shadow-md z-50">
         <div className="text-lg font-bold">
           <Link to="/">Theme Switcher</Link>
         </div>

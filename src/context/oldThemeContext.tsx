@@ -21,13 +21,12 @@ export const ThemeProvider = ({ children }: { children: ReactNode }) => {
   const [theme, setTheme] = useState<Theme>(getInitialTheme);
 
   useEffect(() => {
-    document.documentElement.className = theme;
     localStorage.setItem('app-theme', theme);
   }, [theme]);
 
   return (
     <ThemeContext.Provider value={{ theme, setTheme }}>
-      {children}
+      <div className={theme}>{children}</div>
     </ThemeContext.Provider>
   );
 };
