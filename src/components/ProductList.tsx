@@ -17,12 +17,16 @@ function ProductList() {
     };
     fetchProduct();
   }, []);
+
+  const handleAddToCart = (product:Product) => {
+    alert(`${product.title} added to cart`)
+  };
   return (
     <>
       <div className="productList">
         {productList.map((product) => {
           return (
-            <div key={product.id} className="">
+            <div key={product.id} className="w-full border-2 border-gray-300 rounded-md p-4">
               <img
                 src={product.image}
                 alt={product.title}
@@ -30,6 +34,7 @@ function ProductList() {
               />
               <h1 className="text-lg">{product.title}</h1>
               <p className="font-bold">{product.price}</p>
+              <button className="[.theme3_&]:bg-pink-400 [.theme3_&]:hover:bg-pink-600 [.theme2_&]:bg-gray-400 [.theme2_&]:hover:bg-gray-600 bg-blue-500 text-white rounded-md p-2 m-2 hover:bg-blue-600" onClick={() => handleAddToCart(product)}>Add to Cart</button>
             </div>
           );
         })}
