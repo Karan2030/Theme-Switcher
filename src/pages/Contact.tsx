@@ -24,7 +24,7 @@ function Contact() {
 
         <div className="mt-8 p-4 bg-blue-50 text-blue-900 rounded-md">
           <p>
-            You can also reach me on social media through linkedin.
+            You can also reach me on social media through <a href="www.linkedin.com/in/karan-sharma-6961651b3" target="_blank" className="text-black hover:text-blue-400" >linkedin</a>.
           </p>
         </div>
       </div>

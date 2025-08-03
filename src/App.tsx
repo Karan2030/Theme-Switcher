@@ -14,6 +14,7 @@ function App() {
 
   return (
     <>
+      <div className="transition-all duration-1000 ease-in-out transform">
       <Header />
 
       {isSidebarLayout ? (
@@ -57,6 +58,7 @@ function App() {
         </main>
       )}
       <Footer />
+      </div>
     </>
   );
 }

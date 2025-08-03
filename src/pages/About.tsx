@@ -2,13 +2,12 @@ function About() {
   return (
     <>
       <h1 className="text-2xl font-bold p-10">About</h1>
-      <h2 className="text-xl font-bold pb-10">The Multi-Theme Changer</h2>
+      <h2 className="text-xl font-bold pb-10">The Multi-Theme switcher</h2>
       <p className="text-lg">
         Our multi-theme changer lets you personalize your browsing experience by
         switching between different color themes seamlessly. Whether you prefer
         a bright, light mode for daytime or a soothing dark mode for night, you
-        can easily toggle across multiple themes to match your mood and
-        environment.
+        can easily toggle across multiple themes to match your mood
       </p>
       <h2 className="text-xl font-bold p-10">Key Features:</h2>
       <p className="text-lg">
@@ -25,24 +24,18 @@ function About() {
           </li>
           <li>
             <h3>Multiple preset themes: </h3>
-            <p>Choose from light, dark, and other theme.</p>
+            <p>Choose from light, dark, and fancy theme.</p>
           </li>
           <li>
             <h3>User preference persistence: </h3>
             <p>
-              Your chosen theme is remembered and applied on your next visit.
+              Your chosen theme is remembered and applied throughourt the site.
             </p>
           </li>
           <li>
             <h3>Accessibility friendly: </h3>
             <p>
               Select themes that are easier on the eyes and improve readability.
-            </p>
-          </li>
-          <li>
-            <h3>Customizable styles: </h3>
-            <p>
-              Extend and create your own themes for a truly personalized look.
             </p>
           </li>
           <li>
