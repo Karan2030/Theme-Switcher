@@ -23,6 +23,6 @@ git clone https://github.com/Karan2030/Theme-Switcher.git
 cd Theme-Switcher
 npm install
 
-run the app using 
+
 npm run dev
 
