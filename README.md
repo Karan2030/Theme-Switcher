@@ -22,6 +22,7 @@ Clone the repository and install dependencies:
 git clone https://github.com/Karan2030/Theme-Switcher.git
 cd Theme-Switcher
 npm install
+npm i axios
 
 
 npm run dev
